@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-grid {
+  width: 80vw;
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+
+:root {
+  color: #8a2e83 
+  #a736a6
+   #c43db2
+    #cc83b6
+     #ccc 
+     #cc83b6
+      #d40082 
+      #d47bbd 
+      #d98cbf 
+      #ddd 
+      #e19bcc;
+
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: #e19bcc; /*fundo do site*/
+}
+
+.titulo h2{
+  color: #ddd;
+  font-size:  40px;
+  padding: 10px 18px;
+}
+
+
+
+/*--------------------------------HEADER---------------------------*/
+
+.banner{
+  height: 1920px;
+  width: 1500px;
+  background-image: url(./img/Banner\ principal.svg);
+  background-size: 102%;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+header.container-grid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  height: 165px;
+}
+
+nav.menu{
+  max-width: 700px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a{
+  font-size: 25px;
+  color: #d40082;  /*cor do menu*/
+  font-family: "Recursive", mono;
+  text-decoration: underline transparent;
+  text-decoration-thickness: 2px;
+
+  transition: text-decoration 500ms ease;
+}
+
+/*Transição da linha nos menus*/
+
+.menu a:hover{
+  text-decoration-color: #d40082;
+}
+
+/*LOGO DA EMPRESA*/
+
+header.container-grid img{
+  height: 90px;
+}
+
+/*BOTAO DE COMPRAS */
+.container-grid button{
+  height: 40px;
+  width: 10%;
+
+ 
+}
+
+/*-------------------------- PRODUTOS--------------------- */
+
+#produtos{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50%;
+  margin-top: -690px;
+  margin-bottom: -200px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.produto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 62px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.produto img{
+  width: 415px;
+  height: 415px;
+}
+
+.produto-content{
+  padding: 15px;
+}
+
+.produto p{
+  font-family: "Recursive", mono;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 45px;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+
+
